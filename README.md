@@ -5,7 +5,7 @@
 </h1>
 
 ## Overview
-This project  movie data from movie aggregation websites to create proposals for a hypothetical new ABC Industries Studio. It explores the movie industry to identify the most successful film genres, themes, and audience demographics. The goal of this project is to provide actionable insights for a new movie studio to guide content creation and target audience engagement.
+This project aims to utilize movie data from movie aggregation websites to create proposals for a hypothetical new ABC Industries Studio. It explores the movie industry to identify the most successful film genres, themes, and audience demographics. The goal of this project is to provide actionable insights for a new movie studio to guide content creation and target audience engagement. 
 
 ## Business Understanding
 This project will analyze box office trends to identify successful film genres, themes, and audience demographics. By providing actionable recommendations, the studio can make informed decisions on content creation and audience engagement. This will help ABC Industries produce successful films and establish a strong foothold in the competitive film industry.
@@ -32,6 +32,7 @@ The data used for this analysis comes from four sources:
 2. Rotten Tomatoes (RT)
 3. TheMovieDB (TMDB)
 4. The Numbers (TN)
+[(Access Data Here)](https://github.com/ElsieSerem/dsc-phase-2-project-v3-ABC-Industries/tree/main/zippedData)
 
 The data includes information on movie genres, directors, runtime, vote counts, and worldwide gross amounts and others which are very crucial for this project.
 
@@ -54,6 +55,8 @@ This scatter plot shows the relationship between runtime and vote count.
 ![ABC Industries](https://github.com/ElsieSerem/dsc-phase-2-project-v3-ABC-Industries/blob/main/Images/Scatter%20Plot.png?raw=true)
 This information can be useful when selecting genres for content creation, as it can help identify the types of movies that audiences prefer in terms of runtime.According to the scatterplots runtime of between 80 and 120 minutes is preferable to most people
 
+A more comprehensive expalnation of the  various relationships between variables and genre popularity can be located in the [Jupyter_Notebook](https://github.com/ElsieSerem/dsc-phase-2-project-v3-ABC-Industries/blob/main/student.ipynb). For  more interaction with the charts and graphs, they can be accessed through this link ([Visualizations](https://github.com/ElsieSerem/dsc-phase-2-project-v3-ABC-Industries/tree/main/Images))
+
 ## Recommendations
 Based on the analysis, the top three genres recommended  for content creation are:
 
@@ -68,7 +71,7 @@ These genres tend to perform well at the box office and are popular among voters
 * Movies with a runtime of between 80 and 120 minutes tend to perform well.
 * Directors who have a track record of producing successful movies should be considered for collaboration.
 
-By following these recommendations, the studio can make informed decisions and increase its chances of success in the competitive movie industry.
+By following these recommendations, the studio can make informed decisions and increase its chances of success in the competitive movie industry. [Presentation slides](https://github.com/ElsieSerem/dsc-phase-2-project-v3-ABC-Industries/blob/main/Presentation%20PDF.pdf) have been prepared in order to allow ease of understanding and highlight our next steps derived from the findings of this analysis.
 
  # Summary of Conclusions
 Statistical tests were conducted and it was concluded that:
@@ -76,4 +79,4 @@ Statistical tests were conducted and it was concluded that:
 
   2. The linear regression analysis indicates that audience engagement, as measured by the number of votes a movie receives, is strongly correlated with a movie's worldwide gross, highlighting the importance of engaging audiences to achieve financial success.
 
-  3. Finally, the chi-squared test reveals a significant association between movie genres and directors, suggesting that the genre a director works in can impact a film's success. This finding supports the recommendation to collaborate with successful directors in the Science Fiction and Fantasy, Animation, and Action and Adventure genres 
+  3. Finally, the chi-squared test reveals a significant association between movie genres and directors, suggesting that the genre a director works in can impact a film's success. This finding supports the recommendation to collaborate with successful directors in the Science Fiction and Fantasy, Animation, and Action and Adventure genres. 
